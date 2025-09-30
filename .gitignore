@@ -1,0 +1,69 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Frontend build
+/frontend/build/
+/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+.Python
+
+# Flask / local files
+instance/
+*.sqlite3
+backend/game_state.json
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+coverage/
+.cache/
+.pytest_cache/
+
+# OneDrive temporary files
+~$*
+
+# Ignore build artifacts from other tools
+build/
+coverage/
+reports/
+
+# Ignore node build artifacts in subprojects
+proxy/node_modules/
+frontend/node_modules/
+
+# Ignore local debug files
+*.local
+
+# End of file
